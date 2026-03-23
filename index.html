@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>asdfsdf</title>
+
+	<style type="text/css">
+		.encabezado{
+			border: .2vw solid red;
+			width: 90%;
+			background-color: lavender;
+			margin: 0 auto;
+			margin-bottom: 2vh;
+			text-align: center;
+		}
+
+		.menu{
+			border: .2vw solid black;
+			width: 90%;
+			left: 5%;
+			background-color: goldenrod;
+			margin-bottom: 2vh;
+			position: fixed;
+		}
+		.lateral{
+			border: .2vw solid black;
+			background-color: magenta;
+			width: 30%;
+			height: 1200px;
+		}
+
+		.seccion{
+			border: .2vw solid black;
+			background-color: hotpink;
+			width: 60%;
+			height: 1200px;
+			float: right;
+			position: relative;
+			top: -1200px;
+		}
+
+		.anidada1{
+			border: .2vw solid black;
+			background-color: blue;
+			width: 30%;
+			height: 80%;
+			float: right;
+			position: relative;
+			top: 2vh;
+			right: 2vh;
+		}
+
+		.menu{
+		border: solid 2px black;
+		width: 90vw;
+	position: sticky;
+		top: 2vh;
+
+	}
+	</style>
+</head>
+<body>
+	<div class="encabezado"><h1>Encabezado</h1></div>
+
+	<nav class="menu"><span><a href="index.html">Inicio</a></span> <span><a href="otra.html">Otra</a></span></nav>
+
+	<div class="lateral">Lateral</div>
+	<div class="seccion">Sección
+		<div class="anidada1">Anidada1</div>
+		<div>Anidada2</div>
+	</div>
+
+</body>
+</html>
